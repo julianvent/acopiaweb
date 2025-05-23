@@ -1,6 +1,5 @@
 import { Rubik } from "next/font/google";
 import "./globals.css";
-import "../css/styles.css";
 import Header from "@/app/components/Header";
 
 const rubikSans = Rubik({
