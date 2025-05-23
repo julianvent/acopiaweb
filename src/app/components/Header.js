@@ -4,14 +4,14 @@ import { RUBIK_SANS } from "../utils/constants";
 export default function Header() {
   return (
     <header className={`${styles.headerContainer} ${RUBIK_SANS}`}>
-      <a href="/">
+      <a href="">
         <div className={styles.imgContainer}>
           <img src="img/logo_acopiatech.png" alt="" className={styles.img} />
         </div>
       </a>
       <ul className={styles.navList}>
         <li>
-          <a href="recoleccion" className={styles.item}>
+          <a href="/recoleccion" className={styles.item}>
             Recolección
           </a>
         </li>
