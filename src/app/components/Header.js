@@ -11,17 +11,17 @@ export default function Header() {
       </a>
       <ul className={styles.navList}>
         <li>
-          <a href="/recoleccion" className={styles.item}>
+          <a href="recoleccion" className={styles.item}>
             Recolección
           </a>
         </li>
         <li>
-          <a href="/sostenibilidad" className={styles.item}>
+          <a href="sostenibilidad" className={styles.item}>
             Sostenibilidad
           </a>
         </li>
         <li>
-          <a href="/nosotros" className={styles.item}>
+          <a href="nosotros" className={styles.item}>
             Nosotros
           </a>
         </li>
