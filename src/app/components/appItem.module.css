@@ -1,7 +1,8 @@
 .container {
     display: grid;
-    gap: 2em;
+    gap: 1em;
     margin-inline: auto;
+    max-width: 400px;
 }
 
 .container h2 {
@@ -14,5 +15,6 @@
 }
 
 .imgContainer img {
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
 }
