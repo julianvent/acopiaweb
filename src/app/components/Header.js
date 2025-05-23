@@ -6,18 +6,18 @@ export default function Header() {
     <header className={`${styles.headerContainer} ${RUBIK_SANS}`}>
       <a href="/">
         <div className={styles.imgContainer}>
-          <img src="/img/logo_acopiatech.png" alt="" className={styles.img} />
+          <img src="img/logo_acopiatech.png" alt="" className={styles.img} />
         </div>
       </a>
       <ul className={styles.navList}>
         <li>
-          <a href="/sostenibilidad" className={styles.item}>
-            Sostenibilidad
+          <a href="/recoleccion" className={styles.item}>
+            Recolección
           </a>
         </li>
         <li>
-          <a href="/recoleccion" className={styles.item}>
-            Recolección
+          <a href="/sostenibilidad" className={styles.item}>
+            Sostenibilidad
           </a>
         </li>
         <li>

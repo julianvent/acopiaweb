@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --backgroundCyan: #004668;
 }
 
 @theme inline {
@@ -11,8 +12,31 @@
   --font-sans: var(--font-rubik-sans);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 2em;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.headerNav {
+  top: 0;
+  z-index: 10000;
+  position: sticky;
 }

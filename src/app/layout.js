@@ -16,9 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${rubikSans.variable}  antialiased`}>
-        <div>
-          <Header />
-        </div>
+        <Header />
         {children}
       </body>
     </html>
