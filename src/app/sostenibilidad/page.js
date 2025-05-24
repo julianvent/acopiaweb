@@ -1,5 +1,5 @@
 import { RUBIK_SANS } from "@/app/utils/constants";
-import styles from "./sostenibilidad.module.css"
+import styles from "./sostenibilidad.module.css";
 
 export default function Home() {
   return (
@@ -25,6 +25,13 @@ function Podcast() {
   return (
     <div className={styles.podcastContainer}>
       <h1>Escucha nuestro podcast</h1>
+      <div className={styles.videoContainer}>
+        <iframe
+          className={styles.video}
+          src="https://www.youtube.com/embed/v2vo0nQECNQ"
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .imgContainer {
   margin-inline: auto;
   max-width: 560px;
-  padding: 2em 0;
+  padding: 2em 2em;
 }
 
 .container {
@@ -18,7 +18,7 @@
 
 .infoContainer {
   display: grid;
-  max-width: 800px;
+  max-width: 1000px;
   text-align: center;
   gap: 1em;
 }
