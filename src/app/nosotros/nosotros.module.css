@@ -1,0 +1,39 @@
+.imgContainer {
+  margin-inline: auto;
+  max-width: 560px;
+  padding: 2em 0;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+
+  gap: 1em;
+  padding: 2em 2em;
+}
+
+.container h1 {
+  color: #2a592f;
+}
+
+.infoContainer {
+  display: grid;
+  max-width: 800px;
+  text-align: center;
+  gap: 1em;
+}
+
+.objectiveList {
+  display: grid;
+  text-align: left;
+
+  gap: 2em;
+}
+
+.objectiveList h2 {
+    color: #004668;
+}
+
+.objectiveList ul {
+  list-style: inside;
+}

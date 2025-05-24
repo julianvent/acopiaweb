@@ -4,6 +4,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --backgroundCyan: #004668;
+  --customPadding: 4em 2em;
 }
 
 @theme inline {
