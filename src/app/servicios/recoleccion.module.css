@@ -1,0 +1,94 @@
+.appContainer {
+  background-color: #2a592f;
+  color: white;
+  display: grid;
+  padding: 4em 2em;
+  gap: 2em;
+}
+
+.info {
+  margin-inline: auto;
+  text-align: center;
+  display: grid;
+  max-width: 900px;
+  gap: 1em;
+}
+
+.appCarrousel {
+  margin-inline: auto;
+  max-width: 1500px;
+  gap: 5em;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.acopioContainer {
+  padding: 4em;
+}
+
+.acopioInfo {
+  margin-inline: auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.kitsContainer {
+  display: grid;
+  padding: 4em 2em;
+  gap: 3em;
+
+  background-color: #004668;
+  color: white;
+}
+
+.kit {
+  display: grid;
+  grid-auto-flow: column;
+  max-width: fit-content;
+  align-items: center;
+  gap: 3em;
+  margin-inline: auto;
+}
+
+.kit p {
+  max-width: 600px;
+}
+
+.imgContainer {
+  max-width: 600px;
+  margin-inline: auto;
+  border-radius: 12px;
+  overflow: clip;
+}
+
+.imgContainer img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (width <= 1400px) {
+  .appCarrousel {
+    grid-auto-flow: row;
+  }
+}
+
+@media (width <= 900px) {
+  .appCarrousel {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .kitsContainer {
+    gap: 4em;
+  }
+
+  .kit {
+    grid-auto-flow: row;
+    text-align: center;
+  }
+
+  .kit p {
+    max-width: 800px;
+  }
+}

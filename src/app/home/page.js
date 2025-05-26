@@ -71,19 +71,16 @@ function IdentityItem({ img, title, description }) {
 function App() {
   return (
     <div className={styles.appContainer}>
-      <div className={styles.appInfo}>
+      <div className={styles.info}>
         <h1>Nuestra aplicación móvil, disponible para Android</h1>
         <p>
           En AcopiaTech nos preocupamos por la innovación. ¡Descarga ahora la
-          app oficial para solicitar recolecciones desde tu
-          dispositivo móvil!
+          app oficial para solicitar recolecciones desde tu dispositivo móvil!
         </p>
-        <a href="recoleccion">Ver más</a>
+        <a href="servicios">Ver más</a>
       </div>
       <div>
-        <AppItem
-          img="img/detalle_recoleccion_mock.png"
-        />
+        <AppItem img="img/detalle_recoleccion_mock.png" />
       </div>
     </div>
   );

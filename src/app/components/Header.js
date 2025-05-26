@@ -11,8 +11,8 @@ export default function Header() {
       </a>
       <ul className={styles.navList}>
         <li>
-          <a href="recoleccion" className={styles.item}>
-            Recolección
+          <a href="servicios" className={styles.item}>
+            Servicios
           </a>
         </li>
         <li>
