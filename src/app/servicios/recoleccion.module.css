@@ -23,14 +23,27 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.acopioContainer {
-  padding: 4em;
+
+.cursosContainer {
+  display: grid;
+  gap: 2em;
+  padding: 4em 2em;
 }
 
-.acopioInfo {
+.cursosContainer h1 {
   margin-inline: auto;
-  max-width: 1000px;
-  text-align: center;
+}
+
+.cursosInfo {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 2em;
+  margin-inline: auto;
+}
+
+.cursosInfo p {
+  max-width: 700px;
 }
 
 .kitsContainer {
@@ -77,6 +90,11 @@
   .appCarrousel {
     grid-auto-flow: row;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cursosInfo {
+    grid-auto-flow: row;
+    text-align: center;
   }
 
   .kitsContainer {

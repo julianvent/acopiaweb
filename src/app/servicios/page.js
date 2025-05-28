@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={RUBIK_SANS}>
       <App />
-      <Acopio />
+      <Cursos />
       <Kits />
     </div>
   );
@@ -41,13 +41,21 @@ function App() {
   );
 }
 
-function Acopio() {
+function Cursos() {
   return (
-    <div className={styles.acopioContainer}>
-      <div className={styles.acopioInfo}>
-        <h1>Centros de acopio</h1>
-        <div>
-
+    <div className={styles.cursosContainer}>
+      <h1>Cursos de mantenimiento</h1>
+      <div className={styles.cursosInfo}>
+        <p>
+          En AcopiaTech, creemos que la educación y el aprendizaje son factores
+          importantes para reducir el impacto ambiental que producen los
+          desechos electrónicos. Para ello, ofrecemos cursos en los que se
+          capacita a la población sobre el mantenimiento y cuidado de
+          dispositivos inteligentes comunes, como smartphones y computadoras,
+          con el fin de alargar la vida útil de estos.
+        </p>
+        <div className={styles.imgContainer}>
+          <img src="img/maintenance.jpg" alt="" />
         </div>
       </div>
     </div>
@@ -74,7 +82,8 @@ function Kits() {
           Nuestro <b>kit básico</b> incluye herramientas esenciales como paño de
           microfibra, líquido limpiador, hisopos, cepillos y toallas
           desinfectantes, ideales para una limpieza segura y accesible.
-          <br/><br/>
+          <br />
+          <br />
           Para quienes buscan un cuidado más especializado, el{" "}
           <b>kit premium </b>
           incorpora aire comprimido, gamuza de alta calidad, cinta de baja
